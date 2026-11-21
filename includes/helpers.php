@@ -6,7 +6,7 @@
 
 // Change if the project folder in htdocs has a different name.
 // e.g. http://localhost/IT-Helpdesk-DBA-Final-Project
-define('BASE_URL', '/IT-Helpdesk-DBA-Final-Project');
+define('BASE_URL', '/IT-Helpdesk-And-Ticketing-System');
 
 // Allowed values — must match the CHECK constraints in database/01_schema.sql
 const ROLES             = ['Employee', 'Technician', 'Admin'];

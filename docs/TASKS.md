@@ -40,9 +40,9 @@ Some pages are shared. The pairs below work together:
 
 ## Myrson: Database & Report Queries
 **Week 1**
-- [ ] Review `01_schema.sql` line by line against the data dictionary and ERD
-- [ ] Test trigger `trg_tickets_bi`: insert a ticket per priority and confirm `due_at`
-- [ ] Test view `v_ticket_sla`: confirm seed data shows On Track / At Risk / Breached / Met
+- [x] Review `01_schema.sql` line by line against the data dictionary and ERD
+- [x] Test trigger `trg_tickets_bi`: insert a ticket per priority and confirm `due_at`
+- [x] Test view `v_ticket_sla`: confirm seed data shows On Track / At Risk / Breached / Met
 
 **Week 2**
 - [ ] Test every constraint (bad role, duplicate serial, deleting a referenced user, …) and record the results with screenshots for the paper
